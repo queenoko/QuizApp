@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textColor="#546E7A"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            />
+
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sub_title"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:textColor="#546E7A"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            />
+
+        <TextView
+            android:id="@+id/qtnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_one"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioQtnOne"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/goat_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_goat"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/camel_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_camel"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/cow_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_cow"
+                android:textAppearance="?android:textAppearance"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qtnTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_two"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioQtnTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/sun_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_sun"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/jupiter_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_jupiter"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/moon_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_moon"
+                android:textAppearance="?android:textAppearance"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qtnThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_three"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioQtnThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/gold_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_gold"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/silver_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_silver"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/iron_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_iron"
+                android:textAppearance="?android:textAppearance"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qtnFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_four"
+            android:textAllCaps="false"
+            android:textColor="#546E7A"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioQtnFour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/teeth_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_teeth"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/hair_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/opt_hair"
+                android:textColor="#546E7A"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/skin_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_skin"
+                android:textAppearance="?android:textAppearance"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qtnFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_five"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioQtnFive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/stream_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_stream"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/lake_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_lake"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/nile_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_nile"
+                android:textAppearance="?android:textAppearance"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qtnSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_six"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/radioQtnSix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/yes_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_true"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/no_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_false"
+                android:textAppearance="?android:textAppearance"/>
+
+            <RadioButton
+                android:id="@+id/others_radio_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#546E7A"
+                android:text="@string/opt_others"
+                android:textAppearance="?android:textAppearance"/>
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/qtnSeven"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_seven"
+            android:textAllCaps="false"
+            android:textColor="#546E7A"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox_bird"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#546E7A"
+            android:text="@string/opt_bird"
+            android:textAppearance="?android:textAppearance"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_box"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#546E7A"
+            android:text="@string/opt_box"
+            android:textAppearance="?android:textAppearance"/>
+
+        <CheckBox
+            android:id="@+id/checkbox_plant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#546E7A"
+            android:text="@string/opt_plant"
+            android:textAppearance="?android:textAppearance"/>
+
+        <TextView
+            android:id="@+id/qtnEight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_eight"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_one"
+            android:layout_width="match_parent"
+            android:textColor="#546E7A"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"/>
+
+        <TextView
+            android:id="@+id/qtnNine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qtn_nine"
+            android:textColor="#546E7A"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_two"
+            android:layout_width="match_parent"
+            android:textColor="#546E7A"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/qtnTen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#546E7A"
+            android:text="@string/qtn_ten"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            android:layout_margin="16dp"
+            />
+
+        <EditText
+            android:id="@+id/edt_three"
+            android:textColor="#546E7A"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/ans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit"
+            android:textColor="#ECEFF1"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:background="#E57373"
+            android:onClick="submitAnswer"/>
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ans"
+            android:text="Reset"
+            android:textColor="#ECEFF1"
+            android:textAllCaps="true"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_gravity="center_horizontal"
+            android:background="#E57373"
+            android:onClick="resetQ"/>
+
+    </LinearLayout>
+</ScrollView>
